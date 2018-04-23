@@ -131,7 +131,7 @@ public class Wagon {
 		for (Reiziger r : reizigers) {
 			if (r.getKaartje().getType() == KaartjeType.zwartrijder) {
 				uitstappen(r);
-				System.out.println(r.getName() + "is uit de trein geschopt.");
+				System.out.println(r.getName() + " is uit de trein geschopt.");
 			}
 		}
 	}
